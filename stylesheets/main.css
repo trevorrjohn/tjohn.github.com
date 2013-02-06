@@ -3,5 +3,5 @@ root: {
 }
 
 .wrapper {
-  background: $background
+  background: $background;
 }
