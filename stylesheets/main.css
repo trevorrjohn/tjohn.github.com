@@ -2,5 +2,5 @@ root: {
   var-bg-color: #024A68;
 }
 body {
-  background-color: $bg-color;
+  background-color: var(bg-color);
 }
