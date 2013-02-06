@@ -1,7 +1,19 @@
-::root {
-  var-bg-color: #024A68;
+#body {
+  background-color: #024A68;
 }
 
-body {
-  background-color: var(bg-color);
+#header {
+  min-height: 200px;
+}
+
+#left_column {
+
+}
+
+#main {
+
+}
+
+#footer {
+
 }
