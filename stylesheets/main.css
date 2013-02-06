@@ -12,11 +12,16 @@
   font-family: 'Libre Baskerville', serif;
 }
 
-#left_column {
+#sections {
+  position: relative;
+}
 
+#left_column {
+  float: left;
 }
 
 #main {
+  float: right;
 
 }
 
