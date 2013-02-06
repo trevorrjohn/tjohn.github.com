@@ -3,7 +3,12 @@
 }
 
 #header {
-  min-height: 200px;
+  min-height: 50px;
+}
+
+#title {
+  color: #ffd773;
+  font-size: 26px;
 }
 
 #left_column {
