@@ -1,6 +1,7 @@
-root: {
+::root {
   var-bg-color: #024A68;
 }
+
 body {
   background-color: var(bg-color);
 }
