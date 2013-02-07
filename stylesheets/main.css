@@ -1,6 +1,8 @@
 #body {
   background-color: #024A68;
   font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 #header {
@@ -28,22 +30,26 @@
 #left_column {
   float: left;
   background-color: #225E79;
-  width: 200px;
+  width: 250px;
   min-height: 300px;
   border: 1px solid #63AFD0;
   border-radius: 5px;
-  box-shadow: 1px 1px 2px #e2e2e2;
-  padding: 15px 20px;
+}
+
+#left_column > p, li {
+  padding: 10px;
 }
 
 #main {
-  margin-left: 250px;
+  margin-left: 270px;
   min-height: 400px;
-  width: 700px;
+  width: 730px;
   border: 1px solid #63AFD0;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px black;
-  padding: 15px 20px;
+}
+
+#main > p {
+  padding: 10px;
 }
 
 #footer {
