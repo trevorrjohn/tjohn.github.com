@@ -1,51 +1,62 @@
 #body {
-  background-image: url("../assets/dia.jpg")
+  background-image: url("../assets/dia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
+  color: #c18c28;
 }
 
 #header {
   width: 1000px;
   min-height: 50px;
-  margin: 20px auto;
-  border: 1px solid white;
+  margin: auto;
 }
 
 #title {
-  color: #ffd773;
-  font-size: 26px;
+  color: #6b1a0c;
+  font-size: 42px;
+  line-height: 60px;
   padding-left: 40px;
 }
 
 #sections {
   width: 1002px;
   margin: 0 auto;
-  font-size: 12px;
-  color: #FF8E73;
-  border: 2px solid white;
   min-height: 600px;
 }
 
-#left_column {
-  float: left;
-  background-color: #225E79;
+#contact {
+  padding-top: 150px;
+  margin-left: 750px;
   width: 250px;
   min-height: 300px;
-  border: 1px solid #63AFD0;
-  border-radius: 5px;
 }
 
-#left_column > p, li {
-  padding: 10px;
+#contact > p, ul, li {
+  margin-left: 5px;
+  padding:0;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+}
+
+a {
+  color: #e2e2e2;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+ color: #b3b3b3;
 }
 
 #main {
-  margin-left: 270px;
-  min-height: 400px;
+  float: left;
+  min-height: 350px;
   width: 730px;
-  border: 1px solid #63AFD0;
-  border-radius: 5px;
+  border-right: 1px solid white;
 }
 
 #main > p {
@@ -53,5 +64,7 @@
 }
 
 #footer {
-
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
 }
