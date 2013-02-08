@@ -5,7 +5,7 @@
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   line-height: 20px;
-  color: #c18c28;
+  color: #e2e2e2;
 }
 
 #header {
@@ -15,10 +15,11 @@
 }
 
 #title {
-  color: #6b1a0c;
   font-size: 42px;
   line-height: 60px;
   padding-left: 40px;
+  color: #c18c28;
+  font-weight: bold;
 }
 
 #sections {
@@ -53,10 +54,11 @@ a:hover {
 }
 
 #main {
+  text-align: right;
   float: left;
   min-height: 350px;
   width: 730px;
-  border-right: 1px solid white;
+  border-right: 1px solid #e2e2e2;
 }
 
 #main > p {
