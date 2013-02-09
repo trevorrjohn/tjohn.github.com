@@ -3,6 +3,7 @@ body {
   background-color: #4d535a;
   color: #233749;
   font-weight: bold;
+  width: 480px;
 }
 
 #headerbg {
@@ -11,7 +12,7 @@ body {
   top: 0;
   left: 0;
   margin: 0;
-  width: 1000px;
+  width: 480px;
   height: 50px;
   background: #233749;
 }
@@ -55,6 +56,10 @@ h3#mobile-contact {
 
 ul {
   list-style: none;
+}
+
+p {
+  color: #e2e2e2;
 }
 
 a {
