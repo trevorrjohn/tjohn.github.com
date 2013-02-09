@@ -1,7 +1,7 @@
 $(function() {
-  alert("hi");
-  $().find(".buttons").on('click', function(el) {
+  console.log($(".buttons"));
+  $(".buttons").on('click', function(el) {
     var $target = $(el).children(':first');
-    $target.is(':vissible') ? $target.hide() : $target.show();
+    $target.is(':visible') ? $target.hide() : $target.show();
   });
 });

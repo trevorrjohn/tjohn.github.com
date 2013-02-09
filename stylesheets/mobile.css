@@ -23,7 +23,7 @@ body {
   color: white;
 }
 
-#bio-text {
+.info {
   display: none;
   margin-left: 15px;
 }
