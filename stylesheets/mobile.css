@@ -1,10 +1,19 @@
 body {
-  background-image: url("../assets/norvella_m.jpg");
-  background-repeat: no-repeat;
+  background: #b3b3b3;
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   line-height: 20px;
   color: #e2e2e2;
+}
+
+#header {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+#title {
+  color: #307e68;
+  font-weight: bold;
 }
 
 #main-text {
@@ -13,4 +22,4 @@ body {
 
 #footer {
   display: none;
-}
+k
