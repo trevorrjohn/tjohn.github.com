@@ -15,6 +15,37 @@ body {
   box-shadow: 3px 2px 3px #b3b3b3;
 }
 
+.buttons > h3 {
+  position: relative
+  height: 30px;
+  background: #e2e2e2;
+  box-shadow: 2px 2px 3px #b3b3b3;blue
+  pointer: pointer;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  background-color:#ededed;
+  border:1px solid #dcdcdc;
+}.buttons:hover > h3 {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+  background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color:#dfdfdf;
+}.buttons:active > h3 {
+  top:1px;
+}
+.buttons > h3 {
+  text-shadow:1px 1px 0px #ffffff;
+  color: #777777;
+  line-height: 20px;;
+  font-size: 15px;
+  margin: 6px auto;
+  padding: 0 auto;
+}
+
 #title {
   position: absolute;
   top: 2px;
@@ -31,11 +62,6 @@ body {
 
 #mobile {
   margin-top: 80px;
-}
-
-h3 {
-  font-size: 18px;
-  color: #292929;
 }
 
 #footer {
