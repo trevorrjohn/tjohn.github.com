@@ -1,7 +1,8 @@
 body {
   font-family: Helvetica, 'Ariel Black';
-  background-color: #696d80;
+  background-color: #4d535a;
   color: #233749;
+  font-weight: bold;
 }
 
 #headerbg {
@@ -27,11 +28,40 @@ body {
 #title {
   width: 100%;
   text-align: center;
-  color: #696d80;
+  color: #4d535a;
   font-size: 30px;
   line-height: 40px;
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  color: #4d535a;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 10px;
+  background: #233749;
+  margin-left: -10px;
+  height: 30px;
+}
+
+h3#bio {
+  width: 40%;
+}
+
+h3#mobile-contact {
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #e2e2e2;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: none;
 }
 
 #screen {
