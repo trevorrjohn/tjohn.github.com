@@ -23,18 +23,19 @@ body {
   color: white;
 }
 
-#main-text {
-  display:none;
+#mobile {
+  margin-top: 80px;
 }
 
 h3 {
   font-size: 18px;
   color: #292929;
 }
+
 #footer {
   display: none;
 }
 
 #sections {
-  margin-top: 80px;
+  display: none;
 }
