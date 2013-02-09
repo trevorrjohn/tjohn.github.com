@@ -10,8 +10,12 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 5px;
+  height: 40px;
 }
+
 #title {
+  font-size: 30px;
+  line-height: 40px;
   color: #307e68;
   font-weight: bold;
 }
