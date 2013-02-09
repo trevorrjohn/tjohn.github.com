@@ -23,6 +23,12 @@ body {
   color: white;
 }
 
+#bio-text {
+  display: none;
+  margin-left: 15px;
+}
+
+
 #mobile {
   margin-top: 80px;
 }

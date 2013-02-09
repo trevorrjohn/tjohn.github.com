@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Trevor John</title>
 
-    <link rel="stylesheet" type='text/css' href="stylesheets/main.css" media='all and (min-device-width: 600px)'>
-    <link rel="stylesheet" type='text/css' href="stylesheets/mobile.css" media='all and (max-device-width: 599px)'>
+    <!-- <link rel="stylesheet" type='text/css' href="stylesheets/main.css" media='all and (min-device-width: 600px)'> -->
+    <!-- <link rel="stylesheet" type='text/css' href="stylesheets/mobile.css" media='all and (max-device-width: 599px)'> -->
+    <link rel="stylesheet" type='text/css' href="stylesheets/mobile.css">
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+    <script src="../assets/mobile.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,15 +47,15 @@
       </footer>
 
       <div id="mobile">
-        <div id="bio">
+        <div id="bio" class='buttons'>
           <h3>Bio</h3>
-          <p>Trevor was born in Detroit and now lives in Medford, Ma. He
+          <p id="bio-text">Trevor was born in Detroit and now lives in Medford, Ma. He
           is currently a student at Tufts University, studying both computer science and civil engineering.
           His goals are to design and build innovative products or tools, either in digital and physical world.
           After graduating from Tufts, he will be joining Pivotal Labs in New York.
           He is an avid hockey and soccer fan and enjoys reading in his spare time.</p>
         </div>
-        <div id="contact">
+        <div id="contact-mobile" class='buttons'>
           <ul>
             <li><a href='http://github.com/tjohn' target='_blank'>Github</a></li>
             <li><a href='http://twitter.com/trevorrjohn' target='_blank'>@trevorrjohn</a></li>
@@ -60,7 +64,6 @@
           </ul>
         </div>
       </div>
-      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" media="all and (max-device-width: 599px)" />
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
