@@ -54,6 +54,9 @@ a:hover {
  color: #b3b3b3;
 }
 
+#mobile-text {
+  display:none;
+ }
 #main {
   text-align: right;
   float: left;
