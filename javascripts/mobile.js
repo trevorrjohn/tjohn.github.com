@@ -1,1 +1,11 @@
-$(function() { var b = $(".buttons"); for(var i = 0; i < b.length; i++) { $(b[i]).on('click', function(e) { var t = $(this).find('.info'); t.is(':visible') ? t.hide() : t.show(); }); }; });
+$(function() {
+  var triggers = $(".buttons");
+  for(var i = 0; i < triggers.length; i++) {
+    $(triggers[i]).on('click', function(e) {
+      var $target = $(this).find('.info');
+      $target.is(':visible') ? $target.hide() : $target.show();
+      $().blur();
+      return false;
+    });
+  };
+});
