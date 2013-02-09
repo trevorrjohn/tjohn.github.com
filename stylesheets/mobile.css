@@ -75,6 +75,8 @@ p {
   width: 90%;
   color: #1E3A40;
   z-index: 5;
+  font-weight: normal;
+  font: 'Helvetica', 'Sans';
 }
 
 a {
