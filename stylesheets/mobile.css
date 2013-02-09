@@ -1,31 +1,40 @@
 body {
-  background: #b3b3b3;
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   line-height: 20px;
-  color: #e2e2e2;
+  color: #292929;
 }
 
 #header {
-  width: 100%;
-  background-color: white;
-  border-radius: 5px;
-  height: 50px;;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 90%;
+  background-image: url("../assets/header_m.jpg");
+  height: 50px;
+  box-shadow: 3px 2px 3px #b3b3b3;
 }
 
 #title {
-  width: 100%;
-  margin: 0 auto;
-  font-size: 30px;
-  line-height: 40px;
-  color: #307e68;
+  position: absolute;
+  top: 2px;
+  left: 90px;
   font-weight: bold;
+  color: white;
 }
 
 #main-text {
   display:none;
 }
 
+h3 {
+  font-size: 18px;
+  color: #292929;
+}
 #footer {
   display: none;
-k
+}
+
+#sections {
+  margin-top: 80px;
+}
